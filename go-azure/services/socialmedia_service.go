@@ -310,7 +310,7 @@ func (s *SocialMediaService) UpdateSocialMediaPost(postID string, updatedSocialM
 	return &existingSocialMediaPost, nil
 }
 
-// DeleteSocialMediaPost deletes a task
+// DeleteSocialMediaPost deletes a post
 func (s *SocialMediaService) DeleteSocialMediaPost(postID string) error {
 	// Check if task exists and belongs to user
 	var post models.SocialMediaPost
